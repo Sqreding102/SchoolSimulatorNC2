@@ -1040,16 +1040,6 @@
                   <brickId>cbaed4f0-00bb-4031-ab53-0306ca445205</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
-                    </formula>
-                    <formula category="COLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#FF0000</value>
-                    </formula>
                     <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -1064,6 +1054,16 @@
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
+                    </formula>
+                    <formula category="COLOR">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>#FF0000</value>
+                    </formula>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
                     </formula>
                   </formulaList>
                   <userVariable type="UserVariable" serialization="custom">
@@ -1081,16 +1081,6 @@
                   <brickId>a6efbabe-b5d4-440d-810f-a13ca8ff54c2</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
-                    </formula>
-                    <formula category="COLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#FF0000</value>
-                    </formula>
                     <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -1105,6 +1095,16 @@
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
+                    </formula>
+                    <formula category="COLOR">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>#FF0000</value>
+                    </formula>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
                     </formula>
                   </formulaList>
                   <userVariable type="UserVariable" serialization="custom">
@@ -1603,15 +1603,15 @@
                       <type>OPERATOR</type>
                       <value>MINUS</value>
                     </formula>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="X_DESTINATION">
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>421</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -1787,15 +1787,15 @@
                       <type>NUMBER</type>
                       <value>135</value>
                     </formula>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="X_DESTINATION">
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>488</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -2679,16 +2679,6 @@
                       <brickId>6928f8c0-d91c-410b-98ee-66fce66abebb</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="SIZE">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>120.0</value>
-                        </formula>
-                        <formula category="COLOR">
-                          <additionalChildren/>
-                          <type>STRING</type>
-                          <value>#078707</value>
-                        </formula>
                         <formula category="Y_POSITION">
                           <additionalChildren/>
                           <type>NUMBER</type>
@@ -2703,6 +2693,16 @@
                           </rightChild>
                           <type>OPERATOR</type>
                           <value>MINUS</value>
+                        </formula>
+                        <formula category="COLOR">
+                          <additionalChildren/>
+                          <type>STRING</type>
+                          <value>#078707</value>
+                        </formula>
+                        <formula category="SIZE">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>120.0</value>
                         </formula>
                       </formulaList>
                       <userVariable reference="../../brick/userVariable"/>
@@ -2757,6 +2757,11 @@
                       <brickId>d229d02c-c1c9-4187-9ad3-fcd1bc8fe410</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
+                        <formula category="CONTROLS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>0</value>
+                        </formula>
                         <formula category="WIDTH">
                           <additionalChildren/>
                           <type>NUMBER</type>
@@ -2767,17 +2772,17 @@
                           <type>NUMBER</type>
                           <value>500</value>
                         </formula>
+                        <formula category="LOOPED">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1</value>
+                        </formula>
                         <formula category="POSY">
                           <additionalChildren/>
                           <type>NUMBER</type>
                           <value>0</value>
                         </formula>
                         <formula category="POSX">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>0</value>
-                        </formula>
-                        <formula category="CONTROLS">
                           <additionalChildren/>
                           <type>NUMBER</type>
                           <value>0</value>
@@ -2791,11 +2796,6 @@
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>myVideoPlayer</value>
-                        </formula>
-                        <formula category="LOOPED">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>1</value>
                         </formula>
                       </formulaList>
                     </brick>
@@ -2882,16 +2882,6 @@
                   <brickId>6574a4eb-4c86-48a4-8b2c-50fc556f8206</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
-                    </formula>
-                    <formula category="COLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#FF0000</value>
-                    </formula>
                     <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -2901,6 +2891,16 @@
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>222</value>
+                    </formula>
+                    <formula category="COLOR">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>#FF0000</value>
+                    </formula>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
                     </formula>
                   </formulaList>
                   <userVariable reference="../../../../../../../../scene/objectList/object[5]/scriptList/script[3]/brickList/brick/userVariable"/>
@@ -3433,16 +3433,6 @@
                   <brickId>f8c1f2ab-b197-43b3-9901-ece1211fbe87</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
-                    </formula>
-                    <formula category="COLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#FF0000</value>
-                    </formula>
                     <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -3458,6 +3448,16 @@
                       <type>OPERATOR</type>
                       <value>MINUS</value>
                     </formula>
+                    <formula category="COLOR">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>#FF0000</value>
+                    </formula>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
+                    </formula>
                   </formulaList>
                   <userVariable reference="../../../../../../../../scene[4]/objectList/object/scriptList/script[3]/brickList/brick/userVariable"/>
                   <alignmentSelection>1</alignmentSelection>
@@ -3466,16 +3466,6 @@
                   <brickId>4994b2a0-5969-4258-bd2b-c773c4c1f45a</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
-                    </formula>
-                    <formula category="COLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#FF0000</value>
-                    </formula>
                     <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -3490,6 +3480,16 @@
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
+                    </formula>
+                    <formula category="COLOR">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>#FF0000</value>
+                    </formula>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
                     </formula>
                   </formulaList>
                   <userVariable reference="../../../../../../../../scene[4]/objectList/object/scriptList/script[3]/brickList/brick[2]/userVariable"/>
@@ -5050,15 +5050,15 @@
                       <type>NUMBER</type>
                       <value>135</value>
                     </formula>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="X_DESTINATION">
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>488</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -5892,16 +5892,6 @@
                   <brickId>66f22c13-5c13-4888-9d59-ada268995f30</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
-                    </formula>
-                    <formula category="COLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#FF0000</value>
-                    </formula>
                     <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -5917,6 +5907,16 @@
                       <type>OPERATOR</type>
                       <value>MINUS</value>
                     </formula>
+                    <formula category="COLOR">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>#FF0000</value>
+                    </formula>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
+                    </formula>
                   </formulaList>
                   <userVariable reference="../../../../../../../../scene[4]/objectList/object/scriptList/script[3]/brickList/brick/userVariable"/>
                   <alignmentSelection>1</alignmentSelection>
@@ -5925,16 +5925,6 @@
                   <brickId>c665c567-cb96-4ea6-835e-42c49bde721b</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
-                    </formula>
-                    <formula category="COLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#FF0000</value>
-                    </formula>
                     <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -5949,6 +5939,16 @@
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
+                    </formula>
+                    <formula category="COLOR">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>#FF0000</value>
+                    </formula>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
                     </formula>
                   </formulaList>
                   <userVariable reference="../../../../../../../../scene[4]/objectList/object/scriptList/script[3]/brickList/brick[2]/userVariable"/>
@@ -6512,6 +6512,16 @@
                       <type>OPERATOR</type>
                       <value>MINUS</value>
                     </formula>
+                    <formula category="X_DESTINATION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>404</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
+                    </formula>
                     <formula category="DURATION_IN_SECONDS">
                       <additionalChildren/>
                       <leftChild>
@@ -6526,16 +6536,6 @@
                       </rightChild>
                       <type>FUNCTION</type>
                       <value>RAND</value>
-                    </formula>
-                    <formula category="X_DESTINATION">
-                      <additionalChildren/>
-                      <rightChild>
-                        <additionalChildren/>
-                        <type>NUMBER</type>
-                        <value>404</value>
-                      </rightChild>
-                      <type>OPERATOR</type>
-                      <value>MINUS</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -6553,6 +6553,11 @@
                       <type>NUMBER</type>
                       <value>89</value>
                     </formula>
+                    <formula category="X_DESTINATION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>381</value>
+                    </formula>
                     <formula category="DURATION_IN_SECONDS">
                       <additionalChildren/>
                       <leftChild>
@@ -6567,11 +6572,6 @@
                       </rightChild>
                       <type>FUNCTION</type>
                       <value>RAND</value>
-                    </formula>
-                    <formula category="X_DESTINATION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>381</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -6860,30 +6860,30 @@
                   <brickId>0405e41f-d071-4d49-9951-3dc9686d18cc</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
+                    <formula category="OK">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>окей</value>
+                    </formula>
                     <formula category="DEFAULT">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Ваш ответ</value>
-                    </formula>
-                    <formula category="CANEL">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>отмена</value>
                     </formula>
                     <formula category="TEXT">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Введите ответ:</value>
                     </formula>
-                    <formula category="OK">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>окей</value>
-                    </formula>
                     <formula category="ASK_QUESTION">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>ответ на вопрос</value>
+                    </formula>
+                    <formula category="CANEL">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>отмена</value>
                     </formula>
                   </formulaList>
                   <userVariable type="UserVariable" serialization="custom">
@@ -7822,6 +7822,71 @@
           <scriptList>
             <script type="StartScript" posX="0.0" posY="0.0">
               <brickList>
+                <brick type="IfThenLogicBeginBrick">
+                  <brickId>f71551eb-40ac-4519-9da7-c7667add51f4</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="IF_CONDITION">
+                      <additionalChildren/>
+                      <leftChild>
+                        <additionalChildren/>
+                        <type>USER_VARIABLE</type>
+                        <value>Сардор</value>
+                      </leftChild>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>FUNCTION</type>
+                        <value>TRUE</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>EQUAL</value>
+                    </formula>
+                  </formulaList>
+                  <ifBranchBricks>
+                    <brick type="WaitBrick">
+                      <brickId>892fc2a0-5633-4b40-ae94-18dc5dc56e9e</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="TIME_TO_WAIT_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1.0</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                    <brick type="SceneTransitionBrick">
+                      <brickId>86fca350-e471-4a38-88fb-b72358931e37</brickId>
+                      <commentedOut>false</commentedOut>
+                      <sceneForTransition>кабинет</sceneForTransition>
+                    </brick>
+                  </ifBranchBricks>
+                </brick>
+                <brick type="WriteVariableToFileBrick">
+                  <brickId>4dc3f2c8-3472-4e8f-9a0e-1d48d98c2608</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="WRITE_FILENAME">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>Newlesson.txt</value>
+                    </formula>
+                  </formulaList>
+                  <userVariable type="UserVariable" serialization="custom">
+                    <userVariable>
+                      <default>
+                        <initialIndex>0</initialIndex>
+                        <deviceValueKey>79edd189-a5e0-45d3-9cb3-bf1351cf9fc7</deviceValueKey>
+                        <name>название нового урока</name>
+                      </default>
+                    </userVariable>
+                  </userVariable>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>8e2b3037-0523-4926-992b-4f70cfc77fc5</scriptId>
+            </script>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
                 <brick type="SetSizeToBrick">
                   <brickId>7e6e41a3-0528-49a7-8461-cec571ac442e</brickId>
                   <commentedOut>false</commentedOut>
@@ -7924,15 +7989,7 @@
                           <value>математика</value>
                         </formula>
                       </formulaList>
-                      <userVariable type="UserVariable" serialization="custom">
-                        <userVariable>
-                          <default>
-                            <initialIndex>0</initialIndex>
-                            <deviceValueKey>79edd189-a5e0-45d3-9cb3-bf1351cf9fc7</deviceValueKey>
-                            <name>название нового урока</name>
-                          </default>
-                        </userVariable>
-                      </userVariable>
+                      <userVariable reference="../../../../../../script/brickList/brick[2]/userVariable"/>
                     </brick>
                   </ifBranchBricks>
                 </brick>
@@ -7973,7 +8030,7 @@
                           <value>русский</value>
                         </formula>
                       </formulaList>
-                      <userVariable reference="../../../../../../script[4]/brickList/brick/ifBranchBricks/brick/userVariable"/>
+                      <userVariable reference="../../../../../../script/brickList/brick[2]/userVariable"/>
                     </brick>
                   </ifBranchBricks>
                 </brick>
@@ -8014,7 +8071,7 @@
                           <value>история</value>
                         </formula>
                       </formulaList>
-                      <userVariable reference="../../../../../../script[4]/brickList/brick/ifBranchBricks/brick/userVariable"/>
+                      <userVariable reference="../../../../../../script/brickList/brick[2]/userVariable"/>
                     </brick>
                   </ifBranchBricks>
                 </brick>
@@ -8055,7 +8112,7 @@
                           <value>английский язык</value>
                         </formula>
                       </formulaList>
-                      <userVariable reference="../../../../../../script[4]/brickList/brick/ifBranchBricks/brick/userVariable"/>
+                      <userVariable reference="../../../../../../script/brickList/brick[2]/userVariable"/>
                     </brick>
                   </ifBranchBricks>
                 </brick>
@@ -8096,7 +8153,7 @@
                           <value>музыка</value>
                         </formula>
                       </formulaList>
-                      <userVariable reference="../../../../../../script[4]/brickList/brick/ifBranchBricks/brick/userVariable"/>
+                      <userVariable reference="../../../../../../script/brickList/brick[2]/userVariable"/>
                     </brick>
                   </ifBranchBricks>
                 </brick>
@@ -8137,7 +8194,7 @@
                           <value>физра</value>
                         </formula>
                       </formulaList>
-                      <userVariable reference="../../../../../../script[4]/brickList/brick/ifBranchBricks/brick/userVariable"/>
+                      <userVariable reference="../../../../../../script/brickList/brick[2]/userVariable"/>
                     </brick>
                   </ifBranchBricks>
                 </brick>
@@ -8151,16 +8208,6 @@
                   <brickId>4ef895f2-998f-4606-871d-f5f05f8101b4</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
-                    </formula>
-                    <formula category="COLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#FF0000</value>
-                    </formula>
                     <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -8176,6 +8223,16 @@
                       <type>OPERATOR</type>
                       <value>MINUS</value>
                     </formula>
+                    <formula category="COLOR">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>#FF0000</value>
+                    </formula>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
+                    </formula>
                   </formulaList>
                   <userVariable reference="../../../../../../../../scene[4]/objectList/object/scriptList/script[3]/brickList/brick/userVariable"/>
                   <alignmentSelection>1</alignmentSelection>
@@ -8184,16 +8241,6 @@
                   <brickId>4fa4d9b7-f14c-4b0f-80d9-93265bbeac7d</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
-                    </formula>
-                    <formula category="COLOR">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>#FF0000</value>
-                    </formula>
                     <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -8208,6 +8255,16 @@
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
+                    </formula>
+                    <formula category="COLOR">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>#FF0000</value>
+                    </formula>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
                     </formula>
                   </formulaList>
                   <userVariable reference="../../../../../../../../scene[4]/objectList/object/scriptList/script[3]/brickList/brick[2]/userVariable"/>
@@ -9568,11 +9625,6 @@
                           <type>OPERATOR</type>
                           <value>MINUS</value>
                         </formula>
-                        <formula category="DURATION_IN_SECONDS">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>1.0</value>
-                        </formula>
                         <formula category="X_DESTINATION">
                           <additionalChildren/>
                           <leftChild>
@@ -9602,6 +9654,11 @@
                           </rightChild>
                           <type>OPERATOR</type>
                           <value>PLUS</value>
+                        </formula>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1.0</value>
                         </formula>
                       </formulaList>
                     </brick>
@@ -10345,6 +10402,17 @@
               <scriptId>d1db35f9-d79a-4f83-a9be-64bb5f78f07e</scriptId>
               <receivedMessage>игрок выбрал ответ привет </receivedMessage>
             </script>
+            <script type="WhenScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="SceneTransitionBrick">
+                  <brickId>e619a6a8-6d47-4cae-8263-0f2c411fe49d</brickId>
+                  <commentedOut>false</commentedOut>
+                  <sceneForTransition>кабинет</sceneForTransition>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>f3cb9957-0c81-407e-811e-780de6db63aa</scriptId>
+            </script>
           </scriptList>
           <nfcTagList/>
           <userVariables/>
@@ -10479,11 +10547,11 @@
               <brickList>
                 <brick type="ShowBrick">
                   <brickId>40a45fc2-c9ae-414a-b547-e1a7b43b2322</brickId>
-                  <commentedOut>true</commentedOut>
+                  <commentedOut>false</commentedOut>
                 </brick>
                 <brick type="WaitBrick">
                   <brickId>bf89d8b3-734b-443b-a05b-042600dfe544</brickId>
-                  <commentedOut>true</commentedOut>
+                  <commentedOut>false</commentedOut>
                   <formulaList>
                     <formula category="TIME_TO_WAIT_IN_SECONDS">
                       <additionalChildren/>
@@ -10494,10 +10562,15 @@
                 </brick>
                 <brick type="HideBrick">
                   <brickId>888ccf67-e423-439e-ac9a-373fdbd7981a</brickId>
-                  <commentedOut>true</commentedOut>
+                  <commentedOut>false</commentedOut>
+                </brick>
+                <brick type="SceneTransitionBrick">
+                  <brickId>d5efe6c1-b53e-44c4-8110-3414ee02bc10</brickId>
+                  <commentedOut>false</commentedOut>
+                  <sceneForTransition>кабинет</sceneForTransition>
                 </brick>
               </brickList>
-              <commentedOut>true</commentedOut>
+              <commentedOut>false</commentedOut>
               <scriptId>898e4536-5fbc-4d0f-b7d7-c9e4cb176fb2</scriptId>
               <receivedMessage>показать пл</receivedMessage>
             </script>
@@ -10553,7 +10626,7 @@
                       <rightChild>
                         <additionalChildren/>
                         <type>NUMBER</type>
-                        <value>300</value>
+                        <value>3000</value>
                       </rightChild>
                       <type>FUNCTION</type>
                       <value>RAND</value>
@@ -10588,7 +10661,7 @@
                       <rightChild>
                         <additionalChildren/>
                         <type>NUMBER</type>
-                        <value>600</value>
+                        <value>6000</value>
                       </rightChild>
                       <type>FUNCTION</type>
                       <value>RAND</value>
@@ -10635,7 +10708,7 @@
                           <value>1.0</value>
                         </formula>
                       </formulaList>
-                      <userVariable reference="../../../../../../../../../../scene[12]/objectList/object/scriptList/script[4]/brickList/brick/ifBranchBricks/brick/userVariable"/>
+                      <userVariable reference="../../../../../../../../../../scene[12]/objectList/object/scriptList/script/brickList/brick[2]/userVariable"/>
                     </brick>
                   </ifBranchBricks>
                 </brick>
@@ -10871,7 +10944,7 @@
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
-                      <value>Хмммм!</value>
+                      <value>О Господи! </value>
                     </formula>
                     <formula category="DURATION_IN_SECONDS">
                       <additionalChildren/>
@@ -11101,8 +11174,18 @@
                     </formula>
                     <formula category="X_POSITION">
                       <additionalChildren/>
-                      <type>USER_VARIABLE</type>
-                      <value>klassvarpleyerx</value>
+                      <leftChild>
+                        <additionalChildren/>
+                        <type>USER_VARIABLE</type>
+                        <value>klassvarpleyerx</value>
+                      </leftChild>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>1.5</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>DIVIDE</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11169,6 +11252,12 @@
                       <value>1.0</value>
                     </formula>
                   </formulaList>
+                </brick>
+                <null/>
+                <brick type="GoToBrick">
+                  <brickId>3edbd1c9-8ba0-479d-a366-9c8d8eae471b</brickId>
+                  <commentedOut>true</commentedOut>
+                  <spinnerSelection>81</spinnerSelection>
                 </brick>
               </brickList>
               <commentedOut>false</commentedOut>
@@ -11706,6 +11795,337 @@
               <scriptId>4975dcff-6500-48f0-a44c-238a828f805d</scriptId>
               <receivedMessage>игрок выбрал ответ привет </receivedMessage>
             </script>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="OpenAppBrick">
+                  <brickId>bfe9ca94-a5f6-46b7-a233-7aea216d16e2</brickId>
+                  <commentedOut>true</commentedOut>
+                  <formulaList>
+                    <formula category="VALUE_1">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>com.android.settings</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>true</commentedOut>
+              <scriptId>b68ac991-e6b5-4b3b-8450-bcc37977f633</scriptId>
+            </script>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="CreateVideoBrick">
+                  <brickId>d1b93cf4-efa3-46f4-aef7-f3282ce2ca77</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="CONTROLS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="WIDTH">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>750</value>
+                    </formula>
+                    <formula category="HEIGHT">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>500</value>
+                    </formula>
+                    <formula category="LOOPED">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
+                    </formula>
+                    <formula category="POSX">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="POSY">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="FILE">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>video.mp4</value>
+                    </formula>
+                    <formula category="NAME">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>myVideoPlayer</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>5b374240-961b-413e-a01d-4935dd5ce86b</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+        <object type="Sprite" spriteId="d4ace937-346c-4185-932a-9c8ed2162d97" name="Кутерин">
+          <lookList>
+            <look fileName="1000015539.jpg" lookId="557ac798-4f1a-43b3-abc2-204cb86ec98d" name="Катерин">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="SetSizeToBrick">
+                  <brickId>a19b9d09-de44-42dd-92a6-c2594fc57a40</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>15</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="PlaceAtBrick">
+                  <brickId>be3f9fe0-6ac3-4f46-8ce1-381dc9b326aa</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>19</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
+                    </formula>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>450</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="SayForBubbleBrick">
+                  <brickId>f503bac3-b428-4bcb-ae8a-c78e1883805a</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="STRING">
+                      <additionalChildren>
+                        <org.catrobat.catroid.formulaeditor.FormulaElement>
+                          <additionalChildren/>
+                          <type>STRING</type>
+                          <value>!</value>
+                        </org.catrobat.catroid.formulaeditor.FormulaElement>
+                      </additionalChildren>
+                      <leftChild>
+                        <additionalChildren/>
+                        <type>STRING</type>
+                        <value>Любимый</value>
+                      </leftChild>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>USER_VARIABLE</type>
+                        <value>следующий урок</value>
+                      </rightChild>
+                      <type>FUNCTION</type>
+                      <value>JOIN3</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <leftChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>1</value>
+                      </leftChild>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>3</value>
+                      </rightChild>
+                      <type>FUNCTION</type>
+                      <value>RAND</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="NotificationCreateBrick">
+                  <brickId>f135434e-48f1-4790-9d6c-b11de52adbc6</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="VALUE_5">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>icon.png</value>
+                    </formula>
+                    <formula category="VALUE_1">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>123456</value>
+                    </formula>
+                    <formula category="VALUE_4">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>Кутеееерин</value>
+                    </formula>
+                    <formula category="VALUE_3">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>Достижение</value>
+                    </formula>
+                    <formula category="VALUE_2">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>NewCatroid </value>
+                    </formula>
+                  </formulaList>
+                  <importanceSelection>0</importanceSelection>
+                  <isOngoing>false</isOngoing>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>c094a1a5-299a-4f7d-a3e4-a5bb95b8df9a</scriptId>
+            </script>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="SetVariableBrick">
+                  <brickId>dab82fe9-27b6-4f7f-bbe3-1bc10516e6cd</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="VARIABLE">
+                      <additionalChildren/>
+                      <leftChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>1</value>
+                      </leftChild>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>14</value>
+                      </rightChild>
+                      <type>FUNCTION</type>
+                      <value>RAND</value>
+                    </formula>
+                  </formulaList>
+                  <userVariable type="UserVariable" serialization="custom">
+                    <userVariable>
+                      <default>
+                        <initialIndex>18</initialIndex>
+                        <deviceValueKey>336e6857-3a41-4d17-9d17-07fbf2084132</deviceValueKey>
+                        <name>randomevent</name>
+                      </default>
+                    </userVariable>
+                  </userVariable>
+                </brick>
+                <brick type="IfThenLogicBeginBrick">
+                  <brickId>6bc5f983-47b2-4a34-a211-56a15e390d80</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="IF_CONDITION">
+                      <additionalChildren/>
+                      <leftChild>
+                        <additionalChildren/>
+                        <type>USER_VARIABLE</type>
+                        <value>randomevent</value>
+                      </leftChild>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>6</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>EQUAL</value>
+                    </formula>
+                  </formulaList>
+                  <ifBranchBricks>
+                    <brick type="RepeatBrick">
+                      <brickId>f8e9a277-d475-4c26-80a1-63b93fa10250</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="TIMES_TO_REPEAT">
+                          <additionalChildren/>
+                          <leftChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>1</value>
+                          </leftChild>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>6</value>
+                          </rightChild>
+                          <type>FUNCTION</type>
+                          <value>RAND</value>
+                        </formula>
+                      </formulaList>
+                      <loopBricks>
+                        <brick type="WaitBrick">
+                          <brickId>37a4281d-78ea-4b32-ac23-d678e7bb5332</brickId>
+                          <commentedOut>false</commentedOut>
+                          <formulaList>
+                            <formula category="TIME_TO_WAIT_IN_SECONDS">
+                              <additionalChildren/>
+                              <type>NUMBER</type>
+                              <value>1.0</value>
+                            </formula>
+                          </formulaList>
+                        </brick>
+                        <brick type="PlaceAtBrick">
+                          <brickId>ba1c1948-29d2-457c-bd23-c025efae9af3</brickId>
+                          <commentedOut>false</commentedOut>
+                          <formulaList>
+                            <formula category="Y_POSITION">
+                              <additionalChildren/>
+                              <leftChild>
+                                <additionalChildren/>
+                                <type>NUMBER</type>
+                                <value>200</value>
+                              </leftChild>
+                              <rightChild>
+                                <additionalChildren/>
+                                <type>NUMBER</type>
+                                <value>600</value>
+                              </rightChild>
+                              <type>FUNCTION</type>
+                              <value>RAND</value>
+                            </formula>
+                            <formula category="X_POSITION">
+                              <additionalChildren/>
+                              <leftChild>
+                                <additionalChildren/>
+                                <type>NUMBER</type>
+                                <value>100</value>
+                              </leftChild>
+                              <rightChild>
+                                <additionalChildren/>
+                                <type>NUMBER</type>
+                                <value>600</value>
+                              </rightChild>
+                              <type>FUNCTION</type>
+                              <value>RAND</value>
+                            </formula>
+                          </formulaList>
+                        </brick>
+                      </loopBricks>
+                    </brick>
+                  </ifBranchBricks>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>62503cc8-473f-4f2c-b476-51751fbc51a1</scriptId>
+            </script>
           </scriptList>
           <nfcTagList/>
           <userVariables/>
@@ -11716,7 +12136,7 @@
     </scene>
   </scenes>
   <programVariableList>
-    <userVariable reference="../../scenes/scene[12]/objectList/object/scriptList/script[4]/brickList/brick/ifBranchBricks/brick/userVariable"/>
+    <userVariable reference="../../scenes/scene[12]/objectList/object/scriptList/script/brickList/brick[2]/userVariable"/>
     <userVariable reference="../../scenes/scene[12]/objectList/object[4]/scriptList/script/brickList/brick/loopBricks/brick[2]/userVariable"/>
     <userVariable reference="../../scenes/scene/objectList/object[5]/scriptList/script[3]/brickList/brick/userVariable"/>
     <userVariable reference="../../scenes/scene[4]/objectList/object[2]/scriptList/script/brickList/brick/userVariable"/>
@@ -11734,7 +12154,7 @@
     <userVariable reference="../../scenes/scene[8]/objectList/object[3]/scriptList/script/brickList/brick/userVariable"/>
     <userVariable reference="../../scenes/scene[2]/objectList/object[3]/scriptList/script[2]/brickList/brick/userVariable"/>
     <userVariable reference="../../scenes/scene[11]/objectList/object[4]/scriptList/script[2]/brickList/brick[2]/userVariable"/>
-    <userVariable reference="../../scenes/scene[12]/objectList/object/scriptList/script[3]/brickList/brick/userVariable"/>
+    <userVariable reference="../../scenes/scene[12]/objectList/object/scriptList/script[4]/brickList/brick/userVariable"/>
     <userVariable reference="../../scenes/scene[4]/objectList/object/scriptList/script[3]/brickList/brick/userVariable"/>
     <userVariable reference="../../scenes/scene[4]/objectList/object/scriptList/script[3]/brickList/brick[2]/userVariable"/>
     <userVariable reference="../../scenes/scene[4]/objectList/object/scriptList/script[6]/brickList/brick/loopBricks/brick/ifBranchBricks/brick[2]/userVariable"/>
@@ -11750,6 +12170,7 @@
         </default>
       </userVariable>
     </userVariable>
+    <userVariable reference="../../scenes/scene[13]/objectList/object[6]/scriptList/script[2]/brickList/brick/userVariable"/>
   </programVariableList>
   <programListOfLists/>
   <programMultiplayerVariableList/>

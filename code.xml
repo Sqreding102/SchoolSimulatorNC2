@@ -1040,6 +1040,11 @@
                   <brickId>cbaed4f0-00bb-4031-ab53-0306ca445205</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
+                    </formula>
                     <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -1054,11 +1059,6 @@
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
-                    </formula>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
                     </formula>
                     <formula category="COLOR">
                       <additionalChildren/>
@@ -1081,6 +1081,11 @@
                   <brickId>a6efbabe-b5d4-440d-810f-a13ca8ff54c2</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
+                    </formula>
                     <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -1095,11 +1100,6 @@
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
-                    </formula>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
                     </formula>
                     <formula category="COLOR">
                       <additionalChildren/>
@@ -1593,6 +1593,11 @@
                   <brickId>0b7c7bc7-cbee-44f1-9b5d-65b8e2fcff40</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
+                    <formula category="X_DESTINATION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>421</value>
+                    </formula>
                     <formula category="DURATION_IN_SECONDS">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -1607,11 +1612,6 @@
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
-                    </formula>
-                    <formula category="X_DESTINATION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>421</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -1732,6 +1732,12 @@
                   <brickId>35846c30-850f-4397-9d0c-087b9a584b87</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
+                    <formula category="STRING">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>А-а-х пора в школу...
+пора в школу....</value>
+                    </formula>
                     <formula category="DURATION_IN_SECONDS">
                       <additionalChildren/>
                       <leftChild>
@@ -1746,12 +1752,6 @@
                       </rightChild>
                       <type>FUNCTION</type>
                       <value>RAND</value>
-                    </formula>
-                    <formula category="STRING">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>А-а-х пора в школу...
-пора в школу....</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -1782,6 +1782,11 @@
                   <brickId>d7f7db54-dc2d-49dc-aed8-1b9b11ee2c4d</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
+                    <formula category="X_DESTINATION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>488</value>
+                    </formula>
                     <formula category="DURATION_IN_SECONDS">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -1791,11 +1796,6 @@
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>135</value>
-                    </formula>
-                    <formula category="X_DESTINATION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>488</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -2679,6 +2679,11 @@
                       <brickId>6928f8c0-d91c-410b-98ee-66fce66abebb</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
+                        <formula category="SIZE">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>120.0</value>
+                        </formula>
                         <formula category="Y_POSITION">
                           <additionalChildren/>
                           <type>NUMBER</type>
@@ -2693,11 +2698,6 @@
                           </rightChild>
                           <type>OPERATOR</type>
                           <value>MINUS</value>
-                        </formula>
-                        <formula category="SIZE">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>120.0</value>
                         </formula>
                         <formula category="COLOR">
                           <additionalChildren/>
@@ -2757,42 +2757,42 @@
                       <brickId>d229d02c-c1c9-4187-9ad3-fcd1bc8fe410</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="NAME">
-                          <additionalChildren/>
-                          <type>STRING</type>
-                          <value>myVideoPlayer</value>
-                        </formula>
-                        <formula category="LOOPED">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>1</value>
-                        </formula>
                         <formula category="WIDTH">
                           <additionalChildren/>
                           <type>NUMBER</type>
                           <value>750</value>
                         </formula>
-                        <formula category="CONTROLS">
+                        <formula category="NAME">
                           <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>0</value>
+                          <type>STRING</type>
+                          <value>myVideoPlayer</value>
                         </formula>
                         <formula category="HEIGHT">
                           <additionalChildren/>
                           <type>NUMBER</type>
                           <value>500</value>
                         </formula>
+                        <formula category="LOOPED">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1</value>
+                        </formula>
                         <formula category="FILE">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>VID_20250206_085130_152.mp4</value>
                         </formula>
-                        <formula category="POSY">
+                        <formula category="CONTROLS">
                           <additionalChildren/>
                           <type>NUMBER</type>
                           <value>0</value>
                         </formula>
                         <formula category="POSX">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>0</value>
+                        </formula>
+                        <formula category="POSY">
                           <additionalChildren/>
                           <type>NUMBER</type>
                           <value>0</value>
@@ -2882,6 +2882,11 @@
                   <brickId>6574a4eb-4c86-48a4-8b2c-50fc556f8206</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
+                    </formula>
                     <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -2891,11 +2896,6 @@
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>222</value>
-                    </formula>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
                     </formula>
                     <formula category="COLOR">
                       <additionalChildren/>
@@ -3433,6 +3433,11 @@
                   <brickId>f8c1f2ab-b197-43b3-9901-ece1211fbe87</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
+                    </formula>
                     <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -3448,11 +3453,6 @@
                       <type>OPERATOR</type>
                       <value>MINUS</value>
                     </formula>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
-                    </formula>
                     <formula category="COLOR">
                       <additionalChildren/>
                       <type>STRING</type>
@@ -3466,6 +3466,11 @@
                   <brickId>4994b2a0-5969-4258-bd2b-c773c4c1f45a</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
+                    </formula>
                     <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -3480,11 +3485,6 @@
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
-                    </formula>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
                     </formula>
                     <formula category="COLOR">
                       <additionalChildren/>
@@ -4603,6 +4603,11 @@
                           <brickId>f132114e-7972-4610-af1b-8ca07a9411f2</brickId>
                           <commentedOut>false</commentedOut>
                           <formulaList>
+                            <formula category="STRING">
+                              <additionalChildren/>
+                              <type>STRING</type>
+                              <value>ладно я пошёл в школу</value>
+                            </formula>
                             <formula category="DURATION_IN_SECONDS">
                               <additionalChildren/>
                               <leftChild>
@@ -4617,11 +4622,6 @@
                               </rightChild>
                               <type>FUNCTION</type>
                               <value>RAND</value>
-                            </formula>
-                            <formula category="STRING">
-                              <additionalChildren/>
-                              <type>STRING</type>
-                              <value>ладно я пошёл в школу</value>
                             </formula>
                           </formulaList>
                         </brick>
@@ -5045,6 +5045,11 @@
                   <brickId>3eeada63-e44a-437d-ada3-01ed5e55b5e3</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
+                    <formula category="X_DESTINATION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>488</value>
+                    </formula>
                     <formula category="DURATION_IN_SECONDS">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -5054,11 +5059,6 @@
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>135</value>
-                    </formula>
-                    <formula category="X_DESTINATION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>488</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -5892,6 +5892,11 @@
                   <brickId>66f22c13-5c13-4888-9d59-ada268995f30</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
+                    </formula>
                     <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -5907,11 +5912,6 @@
                       <type>OPERATOR</type>
                       <value>MINUS</value>
                     </formula>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
-                    </formula>
                     <formula category="COLOR">
                       <additionalChildren/>
                       <type>STRING</type>
@@ -5925,6 +5925,11 @@
                   <brickId>c665c567-cb96-4ea6-835e-42c49bde721b</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
+                    </formula>
                     <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -5939,11 +5944,6 @@
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
-                    </formula>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
                     </formula>
                     <formula category="COLOR">
                       <additionalChildren/>
@@ -6502,6 +6502,16 @@
                   <brickId>4453c670-7eaf-4dcc-983d-8a895bbc08d7</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
+                    <formula category="X_DESTINATION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>404</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
+                    </formula>
                     <formula category="DURATION_IN_SECONDS">
                       <additionalChildren/>
                       <leftChild>
@@ -6527,16 +6537,6 @@
                       <type>OPERATOR</type>
                       <value>MINUS</value>
                     </formula>
-                    <formula category="X_DESTINATION">
-                      <additionalChildren/>
-                      <rightChild>
-                        <additionalChildren/>
-                        <type>NUMBER</type>
-                        <value>404</value>
-                      </rightChild>
-                      <type>OPERATOR</type>
-                      <value>MINUS</value>
-                    </formula>
                   </formulaList>
                 </brick>
                 <brick type="BroadcastBrick">
@@ -6548,6 +6548,11 @@
                   <brickId>b6ace822-5ea7-4261-ab54-31236a3f58cf</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
+                    <formula category="X_DESTINATION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>381</value>
+                    </formula>
                     <formula category="DURATION_IN_SECONDS">
                       <additionalChildren/>
                       <leftChild>
@@ -6567,11 +6572,6 @@
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>89</value>
-                    </formula>
-                    <formula category="X_DESTINATION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>381</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -6823,15 +6823,15 @@
                   <brickId>264a7ab3-6216-44ad-9e42-99a9b20cda24</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Привет!</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -6839,15 +6839,15 @@
                   <brickId>102c7c32-9c65-48e5-898e-a5282f751fa0</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>USER_VARIABLE</type>
                       <value>Ваш ник </value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -6860,30 +6860,30 @@
                   <brickId>0405e41f-d071-4d49-9951-3dc9686d18cc</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
+                    <formula category="ASK_QUESTION">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>ответ на вопрос</value>
+                    </formula>
                     <formula category="DEFAULT">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Ваш ответ</value>
-                    </formula>
-                    <formula category="CANEL">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>отмена</value>
                     </formula>
                     <formula category="OK">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>окей</value>
                     </formula>
-                    <formula category="ASK_QUESTION">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>ответ на вопрос</value>
-                    </formula>
                     <formula category="TEXT">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Введите ответ:</value>
+                    </formula>
+                    <formula category="CANEL">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>отмена</value>
                     </formula>
                   </formulaList>
                   <userVariable type="UserVariable" serialization="custom">
@@ -6921,15 +6921,15 @@
                       <brickId>18a06e85-6e19-49ae-898f-2d3a7306764f</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="DURATION_IN_SECONDS">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>3</value>
-                        </formula>
                         <formula category="STRING">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>Ах ты ж собака сутулая🤬🤬🤬</value>
+                        </formula>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>3</value>
                         </formula>
                       </formulaList>
                     </brick>
@@ -6937,15 +6937,15 @@
                       <brickId>281ba875-6fb6-4ca8-af3d-127b9a10b45e</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="DURATION_IN_SECONDS">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>2</value>
-                        </formula>
                         <formula category="STRING">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>быстро на урок🤬😡</value>
+                        </formula>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>2</value>
                         </formula>
                       </formulaList>
                     </brick>
@@ -7325,15 +7325,15 @@
                   <brickId>7b110baa-e98f-4fc9-a4cc-313d8ce80dfb</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>5</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Ваш ник✏️</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>5</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -7412,15 +7412,15 @@
                   <brickId>7682f8eb-e1df-408b-a33f-aff2d339193a</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>5</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>скин✏️</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>5</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -7499,15 +7499,15 @@
                   <brickId>c8fd3223-ff9f-44b2-bd24-99534a2200b3</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>5</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Сардор</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>5</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -7594,15 +7594,15 @@
                   <brickId>e1dd7d65-ae94-4789-a70e-04c7adeb0d4f</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>5</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Ваш ник✏️</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>5</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -7681,15 +7681,15 @@
                   <brickId>66135d58-c1df-4479-b8c7-9b2d9f528c79</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>5</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Ваш ник✏️</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>5</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -7768,15 +7768,15 @@
                   <brickId>71f78ed2-6fa2-4cb8-9c1f-dd3e104012a9</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>5</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Ваш ник✏️</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>5</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -7820,6 +7820,71 @@
           </lookList>
           <soundList/>
           <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="IfThenLogicBeginBrick">
+                  <brickId>f71551eb-40ac-4519-9da7-c7667add51f4</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="IF_CONDITION">
+                      <additionalChildren/>
+                      <leftChild>
+                        <additionalChildren/>
+                        <type>USER_VARIABLE</type>
+                        <value>Сардор</value>
+                      </leftChild>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>FUNCTION</type>
+                        <value>TRUE</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>EQUAL</value>
+                    </formula>
+                  </formulaList>
+                  <ifBranchBricks>
+                    <brick type="WaitBrick">
+                      <brickId>892fc2a0-5633-4b40-ae94-18dc5dc56e9e</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="TIME_TO_WAIT_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1.0</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                    <brick type="SceneTransitionBrick">
+                      <brickId>86fca350-e471-4a38-88fb-b72358931e37</brickId>
+                      <commentedOut>false</commentedOut>
+                      <sceneForTransition>кабинет</sceneForTransition>
+                    </brick>
+                  </ifBranchBricks>
+                </brick>
+                <brick type="WriteVariableToFileBrick">
+                  <brickId>4dc3f2c8-3472-4e8f-9a0e-1d48d98c2608</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="WRITE_FILENAME">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>Newlesson.txt</value>
+                    </formula>
+                  </formulaList>
+                  <userVariable type="UserVariable" serialization="custom">
+                    <userVariable>
+                      <default>
+                        <initialIndex>0</initialIndex>
+                        <deviceValueKey>79edd189-a5e0-45d3-9cb3-bf1351cf9fc7</deviceValueKey>
+                        <name>название нового урока</name>
+                      </default>
+                    </userVariable>
+                  </userVariable>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>8e2b3037-0523-4926-992b-4f70cfc77fc5</scriptId>
+            </script>
             <script type="StartScript" posX="0.0" posY="0.0">
               <brickList>
                 <brick type="SetSizeToBrick">
@@ -7924,15 +7989,7 @@
                           <value>математика</value>
                         </formula>
                       </formulaList>
-                      <userVariable type="UserVariable" serialization="custom">
-                        <userVariable>
-                          <default>
-                            <initialIndex>0</initialIndex>
-                            <deviceValueKey>79edd189-a5e0-45d3-9cb3-bf1351cf9fc7</deviceValueKey>
-                            <name>название нового урока</name>
-                          </default>
-                        </userVariable>
-                      </userVariable>
+                      <userVariable reference="../../../../../../script/brickList/brick[2]/userVariable"/>
                     </brick>
                   </ifBranchBricks>
                 </brick>
@@ -7973,7 +8030,7 @@
                           <value>русский</value>
                         </formula>
                       </formulaList>
-                      <userVariable reference="../../../../../../script[4]/brickList/brick/ifBranchBricks/brick/userVariable"/>
+                      <userVariable reference="../../../../../../script/brickList/brick[2]/userVariable"/>
                     </brick>
                   </ifBranchBricks>
                 </brick>
@@ -8014,7 +8071,7 @@
                           <value>история</value>
                         </formula>
                       </formulaList>
-                      <userVariable reference="../../../../../../script[4]/brickList/brick/ifBranchBricks/brick/userVariable"/>
+                      <userVariable reference="../../../../../../script/brickList/brick[2]/userVariable"/>
                     </brick>
                   </ifBranchBricks>
                 </brick>
@@ -8055,7 +8112,7 @@
                           <value>английский язык</value>
                         </formula>
                       </formulaList>
-                      <userVariable reference="../../../../../../script[4]/brickList/brick/ifBranchBricks/brick/userVariable"/>
+                      <userVariable reference="../../../../../../script/brickList/brick[2]/userVariable"/>
                     </brick>
                   </ifBranchBricks>
                 </brick>
@@ -8096,7 +8153,7 @@
                           <value>музыка</value>
                         </formula>
                       </formulaList>
-                      <userVariable reference="../../../../../../script[4]/brickList/brick/ifBranchBricks/brick/userVariable"/>
+                      <userVariable reference="../../../../../../script/brickList/brick[2]/userVariable"/>
                     </brick>
                   </ifBranchBricks>
                 </brick>
@@ -8137,7 +8194,7 @@
                           <value>физра</value>
                         </formula>
                       </formulaList>
-                      <userVariable reference="../../../../../../script[4]/brickList/brick/ifBranchBricks/brick/userVariable"/>
+                      <userVariable reference="../../../../../../script/brickList/brick[2]/userVariable"/>
                     </brick>
                   </ifBranchBricks>
                 </brick>
@@ -8151,6 +8208,11 @@
                   <brickId>4ef895f2-998f-4606-871d-f5f05f8101b4</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
+                    </formula>
                     <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -8166,11 +8228,6 @@
                       <type>OPERATOR</type>
                       <value>MINUS</value>
                     </formula>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
-                    </formula>
                     <formula category="COLOR">
                       <additionalChildren/>
                       <type>STRING</type>
@@ -8184,6 +8241,11 @@
                   <brickId>4fa4d9b7-f14c-4b0f-80d9-93265bbeac7d</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
+                    </formula>
                     <formula category="Y_POSITION">
                       <additionalChildren/>
                       <type>NUMBER</type>
@@ -8198,11 +8260,6 @@
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
-                    </formula>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
                     </formula>
                     <formula category="COLOR">
                       <additionalChildren/>
@@ -8678,11 +8735,6 @@
                   <brickId>70338292-63ef-48d2-b925-3fe41fc8b8fc</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <leftChild>
@@ -8697,6 +8749,11 @@
                       </rightChild>
                       <type>FUNCTION</type>
                       <value>JOIN</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -8725,6 +8782,11 @@
                   <brickId>190cd6b5-3734-458c-ad64-fd30fe80a45e</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
+                    <formula category="STRING">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>Что у нас следующее?</value>
+                    </formula>
                     <formula category="DURATION_IN_SECONDS">
                       <additionalChildren/>
                       <leftChild>
@@ -8739,11 +8801,6 @@
                       </rightChild>
                       <type>FUNCTION</type>
                       <value>RAND</value>
-                    </formula>
-                    <formula category="STRING">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>Что у нас следующее?</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -8751,6 +8808,11 @@
                   <brickId>94d52b28-62f4-4ea0-8f66-5d5fbf928fc3</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
+                    <formula category="STRING">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>ааааа</value>
+                    </formula>
                     <formula category="DURATION_IN_SECONDS">
                       <additionalChildren/>
                       <leftChild>
@@ -8765,11 +8827,6 @@
                       </rightChild>
                       <type>FUNCTION</type>
                       <value>RAND</value>
-                    </formula>
-                    <formula category="STRING">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>ааааа</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -8777,21 +8834,6 @@
                   <brickId>1327f8cb-6fb3-4a67-8818-bb96c611bdd9</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <leftChild>
-                        <additionalChildren/>
-                        <type>NUMBER</type>
-                        <value>1</value>
-                      </leftChild>
-                      <rightChild>
-                        <additionalChildren/>
-                        <type>NUMBER</type>
-                        <value>2</value>
-                      </rightChild>
-                      <type>FUNCTION</type>
-                      <value>RAND</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <leftChild>
@@ -8862,6 +8904,21 @@
                       </rightChild>
                       <type>FUNCTION</type>
                       <value>JOIN</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <leftChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>1</value>
+                      </leftChild>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>2</value>
+                      </rightChild>
+                      <type>FUNCTION</type>
+                      <value>RAND</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -8953,15 +9010,15 @@
                   <brickId>1ef54463-0d0c-46fe-b27d-da0c04e36f4b</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>да</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -8980,15 +9037,15 @@
                   <brickId>5962d7e0-e114-430e-955e-e79368516ab6</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>бляяяя, его мямля с ошибками...</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -9236,11 +9293,6 @@
                   <brickId>5c31e801-8eae-43e6-8f11-d876c40980a5</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <leftChild>
@@ -9255,6 +9307,11 @@
                       </rightChild>
                       <type>FUNCTION</type>
                       <value>JOIN</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -9361,15 +9418,15 @@
                       <brickId>fa732ccd-73f5-4c0e-a14e-fba4a2a87655</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="DURATION_IN_SECONDS">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>1.0</value>
-                        </formula>
                         <formula category="STRING">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>Здарова</value>
+                        </formula>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1.0</value>
                         </formula>
                       </formulaList>
                     </brick>
@@ -9382,15 +9439,15 @@
                       <brickId>0a84b14f-0e9c-458a-abe0-a7bc6f0b97ef</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="DURATION_IN_SECONDS">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>1.0</value>
-                        </formula>
                         <formula category="STRING">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>Как тебя зовут?</value>
+                        </formula>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1.0</value>
                         </formula>
                       </formulaList>
                     </brick>
@@ -9398,15 +9455,15 @@
                       <brickId>9b206a2b-b028-49c5-9bbb-eb7e07cdca73</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="DURATION_IN_SECONDS">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>2</value>
-                        </formula>
                         <formula category="STRING">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>Я продаю арбузы</value>
+                        </formula>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>2</value>
                         </formula>
                       </formulaList>
                     </brick>
@@ -9414,15 +9471,15 @@
                       <brickId>f056d58e-1bbf-4bea-81fe-ff4a56d0bad6</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="DURATION_IN_SECONDS">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>2</value>
-                        </formula>
                         <formula category="STRING">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>да я Сардор</value>
+                        </formula>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>2</value>
                         </formula>
                       </formulaList>
                     </brick>
@@ -9430,15 +9487,15 @@
                       <brickId>cb1de1db-e0e4-4334-af2f-f9564a70f056</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="DURATION_IN_SECONDS">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>2</value>
-                        </formula>
                         <formula category="STRING">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value> Я чурка</value>
+                        </formula>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>2</value>
                         </formula>
                       </formulaList>
                     </brick>
@@ -9446,15 +9503,15 @@
                       <brickId>829d4ffd-ecba-4aac-8714-6ba91ec6611b</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="DURATION_IN_SECONDS">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>3</value>
-                        </formula>
                         <formula category="STRING">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>Когда я на рынке, все кричат Чурка</value>
+                        </formula>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>3</value>
                         </formula>
                       </formulaList>
                     </brick>
@@ -9462,15 +9519,15 @@
                       <brickId>5e8abe15-a22e-4a2e-bedd-7d942a6cf1ef</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="DURATION_IN_SECONDS">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>2</value>
-                        </formula>
                         <formula category="STRING">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>Я принял решение Взорв</value>
+                        </formula>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>2</value>
                         </formula>
                       </formulaList>
                     </brick>
@@ -9553,26 +9610,6 @@
                       <brickId>b5886097-9cba-44d5-aa03-76a58e1f0e2a</brickId>
                       <commentedOut>true</commentedOut>
                       <formulaList>
-                        <formula category="DURATION_IN_SECONDS">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>1.0</value>
-                        </formula>
-                        <formula category="Y_DESTINATION">
-                          <additionalChildren/>
-                          <leftChild>
-                            <additionalChildren/>
-                            <type>NUMBER</type>
-                            <value>184</value>
-                          </leftChild>
-                          <rightChild>
-                            <additionalChildren/>
-                            <type>USER_VARIABLE</type>
-                            <value>изменение размера планшета</value>
-                          </rightChild>
-                          <type>OPERATOR</type>
-                          <value>MINUS</value>
-                        </formula>
                         <formula category="X_DESTINATION">
                           <additionalChildren/>
                           <leftChild>
@@ -9602,6 +9639,26 @@
                           </rightChild>
                           <type>OPERATOR</type>
                           <value>PLUS</value>
+                        </formula>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1.0</value>
+                        </formula>
+                        <formula category="Y_DESTINATION">
+                          <additionalChildren/>
+                          <leftChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>184</value>
+                          </leftChild>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>USER_VARIABLE</type>
+                            <value>изменение размера планшета</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>MINUS</value>
                         </formula>
                       </formulaList>
                     </brick>
@@ -9711,15 +9768,15 @@
                   <brickId>201f19c7-4c4b-4c16-bdce-820136476a8d</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Привет!</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -9727,15 +9784,15 @@
                   <brickId>3b8a883a-0222-47f1-b705-1a18cbccdd6b</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Хтё ты новенкий штол</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -9743,15 +9800,15 @@
                   <brickId>e1e6a7ae-4733-4c63-a1a6-eb180a1c9ded</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>а пон</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -9759,15 +9816,15 @@
                   <brickId>9b052601-9b90-4486-b86d-6e8752440cff</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>как тя звать</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -9787,15 +9844,15 @@
                   <brickId>bbb26679-ee67-4eac-b881-55d763669942</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Значит</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -9803,15 +9860,15 @@
                   <brickId>e19b69f4-d248-4dc6-bd44-b3b7a2044013</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>того кого ты видел</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -9819,15 +9876,15 @@
                   <brickId>1c8f40fb-d50f-43bb-b497-cb68419570c5</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>это грёбаная чурка</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -9835,15 +9892,15 @@
                   <brickId>11ed0624-0b02-418f-98b7-3e5833bf7b3b</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>которая оскорбляет матерей</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -9851,15 +9908,15 @@
                   <brickId>20a21887-2831-4199-82b4-9de3c4033e86</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>и говорит</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -9867,15 +9924,15 @@
                   <brickId>7e264c07-59f4-44e2-a5d4-9fa3f0b7a1fc</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>я твой мама еb@l и твоя папа тоже</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -9883,15 +9940,15 @@
                   <brickId>f370515f-1d3b-4997-96a9-8bf86024197d</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>он плохо знает русский</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -9899,15 +9956,15 @@
                   <brickId>cdc9c933-0721-4334-9b72-39c519572813</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>и его папа часто развлекается с ним ночью</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -9915,15 +9972,15 @@
                   <brickId>8ab2a408-d4c7-4eaa-8269-9ffb9cb04399</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>он даже училку на три буквы 3 раза послал</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -9931,15 +9988,15 @@
                   <brickId>d7fc1c06-a223-4fa3-817b-bcbd4e7b8472</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>...</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -9947,15 +10004,15 @@
                   <brickId>d9d6830b-c807-4862-8d04-3cfaef6e4048</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>тут много училок</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -9963,15 +10020,15 @@
                   <brickId>e479f923-40e4-4a4e-b802-7ff223e2cdbe</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>1 учительница русского</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -9979,15 +10036,15 @@
                   <brickId>98b3444d-426c-4f07-94e1-b77e44e54e47</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Хмара Ирина Владимировна</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -9995,15 +10052,15 @@
                   <brickId>a4deb6b8-da09-48fc-9a09-4c0bc038b670</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>мы её называем Шмарой</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -10011,15 +10068,15 @@
                   <brickId>107045e6-8ac3-4e52-9a06-153c891a45d5</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>3</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>потому что этот мешок цемента ставит двойки за каждую херню</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>3</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -10027,15 +10084,15 @@
                   <brickId>10e842f7-be21-4574-8f1c-2f2c9139e1e9</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>есть ещё историчка</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -10043,15 +10100,15 @@
                   <brickId>9ee59042-2ecd-49ec-9cb2-0e350ada3ad0</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>её отчим лопатой бьёт обычно</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -10059,15 +10116,15 @@
                   <brickId>93023bb2-e226-4eb4-87f4-6f95e3d3692a</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>её зовут Коникова Лариса Александровна</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -10075,15 +10132,15 @@
                   <brickId>1d457adf-6df1-407e-9d5b-c3aaf070974c</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>также есть изгой нашего класса</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -10091,15 +10148,15 @@
                   <brickId>a7297417-e4bf-48a8-ae86-220e398ac2fc</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>звать его Лакеев Егор</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -10107,15 +10164,15 @@
                   <brickId>500a0cbb-f0bb-4f2d-9036-f9384513274f</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>у него недотрах</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -10123,15 +10180,15 @@
                   <brickId>0a79fbd5-d91d-413c-a61f-39280fb29077</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>2</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>мозгами он 7 лет и 18 одновременно</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>2</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -10139,15 +10196,15 @@
                   <brickId>5e5e3f8c-dbd0-4e34-9c55-f6f7e0e05588</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>3</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>в 13 лет у него фимозных 3 см максимум</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>3</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -10345,6 +10402,17 @@
               <scriptId>d1db35f9-d79a-4f83-a9be-64bb5f78f07e</scriptId>
               <receivedMessage>игрок выбрал ответ привет </receivedMessage>
             </script>
+            <script type="WhenScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="SceneTransitionBrick">
+                  <brickId>e619a6a8-6d47-4cae-8263-0f2c411fe49d</brickId>
+                  <commentedOut>false</commentedOut>
+                  <sceneForTransition>кабинет</sceneForTransition>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>f3cb9957-0c81-407e-811e-780de6db63aa</scriptId>
+            </script>
           </scriptList>
           <nfcTagList/>
           <userVariables/>
@@ -10479,11 +10547,11 @@
               <brickList>
                 <brick type="ShowBrick">
                   <brickId>40a45fc2-c9ae-414a-b547-e1a7b43b2322</brickId>
-                  <commentedOut>true</commentedOut>
+                  <commentedOut>false</commentedOut>
                 </brick>
                 <brick type="WaitBrick">
                   <brickId>bf89d8b3-734b-443b-a05b-042600dfe544</brickId>
-                  <commentedOut>true</commentedOut>
+                  <commentedOut>false</commentedOut>
                   <formulaList>
                     <formula category="TIME_TO_WAIT_IN_SECONDS">
                       <additionalChildren/>
@@ -10494,10 +10562,15 @@
                 </brick>
                 <brick type="HideBrick">
                   <brickId>888ccf67-e423-439e-ac9a-373fdbd7981a</brickId>
-                  <commentedOut>true</commentedOut>
+                  <commentedOut>false</commentedOut>
+                </brick>
+                <brick type="SceneTransitionBrick">
+                  <brickId>d5efe6c1-b53e-44c4-8110-3414ee02bc10</brickId>
+                  <commentedOut>false</commentedOut>
+                  <sceneForTransition>кабинет</sceneForTransition>
                 </brick>
               </brickList>
-              <commentedOut>true</commentedOut>
+              <commentedOut>false</commentedOut>
               <scriptId>898e4536-5fbc-4d0f-b7d7-c9e4cb176fb2</scriptId>
               <receivedMessage>показать пл</receivedMessage>
             </script>
@@ -10553,7 +10626,7 @@
                       <rightChild>
                         <additionalChildren/>
                         <type>NUMBER</type>
-                        <value>300</value>
+                        <value>3000</value>
                       </rightChild>
                       <type>FUNCTION</type>
                       <value>RAND</value>
@@ -10588,7 +10661,7 @@
                       <rightChild>
                         <additionalChildren/>
                         <type>NUMBER</type>
-                        <value>600</value>
+                        <value>6000</value>
                       </rightChild>
                       <type>FUNCTION</type>
                       <value>RAND</value>
@@ -10635,7 +10708,7 @@
                           <value>1.0</value>
                         </formula>
                       </formulaList>
-                      <userVariable reference="../../../../../../../../../../scene[12]/objectList/object/scriptList/script[4]/brickList/brick/ifBranchBricks/brick/userVariable"/>
+                      <userVariable reference="../../../../../../../../../../scene[12]/objectList/object/scriptList/script/brickList/brick[2]/userVariable"/>
                     </brick>
                   </ifBranchBricks>
                 </brick>
@@ -10868,15 +10941,15 @@
                   <brickId>b16e1d19-10ca-45ce-b3df-3768e78f1e4c</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>О Господи! </value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -10955,15 +11028,15 @@
                       <brickId>e24c9eab-8869-4d3c-8826-aa6e801ce22e</brickId>
                       <commentedOut>true</commentedOut>
                       <formulaList>
-                        <formula category="DURATION_IN_SECONDS">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>1.0</value>
-                        </formula>
                         <formula category="STRING">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>Здарова</value>
+                        </formula>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1.0</value>
                         </formula>
                       </formulaList>
                     </brick>
@@ -10976,15 +11049,15 @@
                       <brickId>f9ee622d-5c00-4e2a-b960-a0aae809be7e</brickId>
                       <commentedOut>true</commentedOut>
                       <formulaList>
-                        <formula category="DURATION_IN_SECONDS">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>1.0</value>
-                        </formula>
                         <formula category="STRING">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>Как тебя зовут?</value>
+                        </formula>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1.0</value>
                         </formula>
                       </formulaList>
                     </brick>
@@ -10992,15 +11065,15 @@
                       <brickId>e72fc2e7-7a43-4abd-99be-8f459a6ac8f1</brickId>
                       <commentedOut>true</commentedOut>
                       <formulaList>
-                        <formula category="DURATION_IN_SECONDS">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>2</value>
-                        </formula>
                         <formula category="STRING">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>Я продаю арбузы</value>
+                        </formula>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>2</value>
                         </formula>
                       </formulaList>
                     </brick>
@@ -11008,15 +11081,15 @@
                       <brickId>a0fb8ba6-80c1-454e-9c1e-f544e46f3866</brickId>
                       <commentedOut>true</commentedOut>
                       <formulaList>
-                        <formula category="DURATION_IN_SECONDS">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>2</value>
-                        </formula>
                         <formula category="STRING">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>да я Сардор</value>
+                        </formula>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>2</value>
                         </formula>
                       </formulaList>
                     </brick>
@@ -11024,15 +11097,15 @@
                       <brickId>627291bf-4a07-4ebd-84d7-1c743e64cd17</brickId>
                       <commentedOut>true</commentedOut>
                       <formulaList>
-                        <formula category="DURATION_IN_SECONDS">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>2</value>
-                        </formula>
                         <formula category="STRING">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value> Я чурка</value>
+                        </formula>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>2</value>
                         </formula>
                       </formulaList>
                     </brick>
@@ -11040,15 +11113,15 @@
                       <brickId>a4f5dc8f-9bf0-45d7-831e-c7d59b0c89ea</brickId>
                       <commentedOut>true</commentedOut>
                       <formulaList>
-                        <formula category="DURATION_IN_SECONDS">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>3</value>
-                        </formula>
                         <formula category="STRING">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>Когда я на рынке, все кричат Чурка</value>
+                        </formula>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>3</value>
                         </formula>
                       </formulaList>
                     </brick>
@@ -11056,15 +11129,15 @@
                       <brickId>0fabd5ef-8093-43f6-8cb4-d131bdee5d94</brickId>
                       <commentedOut>true</commentedOut>
                       <formulaList>
-                        <formula category="DURATION_IN_SECONDS">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>2</value>
-                        </formula>
                         <formula category="STRING">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>Я принял решение Взорв</value>
+                        </formula>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>2</value>
                         </formula>
                       </formulaList>
                     </brick>
@@ -11101,8 +11174,18 @@
                     </formula>
                     <formula category="X_POSITION">
                       <additionalChildren/>
-                      <type>USER_VARIABLE</type>
-                      <value>klassvarpleyerx</value>
+                      <leftChild>
+                        <additionalChildren/>
+                        <type>USER_VARIABLE</type>
+                        <value>klassvarpleyerx</value>
+                      </leftChild>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>1.5</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>DIVIDE</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11142,11 +11225,6 @@
                   <brickId>a1ef0994-0417-4c6c-86b1-3c77d49aa06f</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren>
                         <org.catrobat.catroid.formulaeditor.FormulaElement>
@@ -11168,7 +11246,18 @@
                       <type>FUNCTION</type>
                       <value>JOIN3</value>
                     </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
+                    </formula>
                   </formulaList>
+                </brick>
+                <null/>
+                <brick type="GoToBrick">
+                  <brickId>3edbd1c9-8ba0-479d-a366-9c8d8eae471b</brickId>
+                  <commentedOut>true</commentedOut>
+                  <spinnerSelection>81</spinnerSelection>
                 </brick>
               </brickList>
               <commentedOut>false</commentedOut>
@@ -11256,15 +11345,15 @@
                   <brickId>6c1ea362-f8af-491a-88e3-ad6a29fc5de0</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Привет!</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11272,15 +11361,15 @@
                   <brickId>6961003c-96ee-4e3d-8045-846b1fe3ee38</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Хтё ты новенкий штол</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11288,15 +11377,15 @@
                   <brickId>15e168a9-9b39-4902-91b3-ee21b181779a</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>а пон</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11304,15 +11393,15 @@
                   <brickId>62ae769f-3778-44fc-a19f-d5bf4383ea49</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>как тя звать</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11332,15 +11421,15 @@
                   <brickId>af6e899e-3c52-4f5f-8cd4-b199bc1d39c1</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Значит</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11348,15 +11437,15 @@
                   <brickId>9399f25f-e1c4-49ad-a58f-ded97b4261ab</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>того кого ты видел</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11364,15 +11453,15 @@
                   <brickId>74ca327a-85a6-4187-ad18-313efcd4f2cd</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>это грёбаная чурка</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11380,15 +11469,15 @@
                   <brickId>b0ea9344-1cbe-4f60-8cb7-83e5660fcef6</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>которая оскорбляет матерей</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11396,15 +11485,15 @@
                   <brickId>597456e0-49f5-4137-b1b5-674f8ac882ac</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>и говорит</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11412,15 +11501,15 @@
                   <brickId>0b0c0747-e720-423f-b866-1abfbd3e5685</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>я твой мама еb@l и твоя папа тоже</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11428,15 +11517,15 @@
                   <brickId>e9855282-004c-40a2-8404-8f3ae017d81e</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>он плохо знает русский</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11444,15 +11533,15 @@
                   <brickId>7db183f8-0ca2-44d5-8684-8f2a7ed13c21</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>и его папа часто развлекается с ним ночью</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11460,15 +11549,15 @@
                   <brickId>50825b1c-e67b-4640-b7d7-166383aa5532</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>он даже училку на три буквы 3 раза послал</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11476,15 +11565,15 @@
                   <brickId>da5c7f9f-1a8e-4e23-b005-5e33f06dcd4b</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>...</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11492,15 +11581,15 @@
                   <brickId>fe537c04-0472-45e5-9dcb-fd5910ed182b</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>тут много училок</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11508,15 +11597,15 @@
                   <brickId>cd8f4535-3935-47b4-9a23-7903c1b20377</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>1 учительница русского</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11524,15 +11613,15 @@
                   <brickId>0a22d69e-a154-4472-afbc-0504e1e97111</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>Хмара Ирина Владимировна</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11540,15 +11629,15 @@
                   <brickId>8f37e08f-28f2-4454-8f9a-64496caac796</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1.0</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>мы её называем Шмарой</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11556,15 +11645,15 @@
                   <brickId>2f66755e-7dc6-43a2-bfc8-c0382ee75120</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>3</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>потому что этот мешок цемента ставит двойки за каждую херню</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>3</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11572,15 +11661,15 @@
                   <brickId>98f43432-7aae-4b60-8276-d5588c05138c</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>есть ещё историчка</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11588,15 +11677,15 @@
                   <brickId>eba34bf7-d167-4f0b-bcda-39546f9b693e</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>её отчим лопатой бьёт обычно</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11604,15 +11693,15 @@
                   <brickId>97b04d2c-9240-4b27-bc07-d59b8703deba</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>её зовут Коникова Лариса Александровна</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11620,15 +11709,15 @@
                   <brickId>8609ff12-8e13-4e9f-b1ef-8716b8ccc715</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>также есть изгой нашего класса</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11636,15 +11725,15 @@
                   <brickId>63f8f7ac-fe9d-4b3a-844a-2f82b4affe6b</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>звать его Лакеев Егор</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11652,15 +11741,15 @@
                   <brickId>dfd3b8c4-8dcb-4009-994c-88323fb73424</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>у него недотрах</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11668,15 +11757,15 @@
                   <brickId>fc83bb6d-5981-44fc-9489-51cd700556c5</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>2</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>мозгами он 7 лет и 18 одновременно</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>2</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11684,15 +11773,15 @@
                   <brickId>55394cf2-1044-4a63-9244-14732176464c</brickId>
                   <commentedOut>true</commentedOut>
                   <formulaList>
-                    <formula category="DURATION_IN_SECONDS">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>3</value>
-                    </formula>
                     <formula category="STRING">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>в 13 лет у него фимозных 3 см максимум</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>3</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -11706,6 +11795,337 @@
               <scriptId>4975dcff-6500-48f0-a44c-238a828f805d</scriptId>
               <receivedMessage>игрок выбрал ответ привет </receivedMessage>
             </script>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="OpenAppBrick">
+                  <brickId>bfe9ca94-a5f6-46b7-a233-7aea216d16e2</brickId>
+                  <commentedOut>true</commentedOut>
+                  <formulaList>
+                    <formula category="VALUE_1">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>com.android.settings</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>true</commentedOut>
+              <scriptId>b68ac991-e6b5-4b3b-8450-bcc37977f633</scriptId>
+            </script>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="CreateVideoBrick">
+                  <brickId>d1b93cf4-efa3-46f4-aef7-f3282ce2ca77</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="WIDTH">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>750</value>
+                    </formula>
+                    <formula category="NAME">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>myVideoPlayer</value>
+                    </formula>
+                    <formula category="HEIGHT">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>500</value>
+                    </formula>
+                    <formula category="LOOPED">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
+                    </formula>
+                    <formula category="FILE">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>VID_20250206_084436_101.mp4</value>
+                    </formula>
+                    <formula category="CONTROLS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="POSX">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="POSY">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>5b374240-961b-413e-a01d-4935dd5ce86b</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+        <object type="Sprite" spriteId="d4ace937-346c-4185-932a-9c8ed2162d97" name="Кутерин">
+          <lookList>
+            <look fileName="1000015539.jpg" lookId="557ac798-4f1a-43b3-abc2-204cb86ec98d" name="Катерин">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="SetSizeToBrick">
+                  <brickId>a19b9d09-de44-42dd-92a6-c2594fc57a40</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>15</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="PlaceAtBrick">
+                  <brickId>be3f9fe0-6ac3-4f46-8ce1-381dc9b326aa</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>19</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
+                    </formula>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>450</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="SayForBubbleBrick">
+                  <brickId>f503bac3-b428-4bcb-ae8a-c78e1883805a</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="STRING">
+                      <additionalChildren>
+                        <org.catrobat.catroid.formulaeditor.FormulaElement>
+                          <additionalChildren/>
+                          <type>STRING</type>
+                          <value>!</value>
+                        </org.catrobat.catroid.formulaeditor.FormulaElement>
+                      </additionalChildren>
+                      <leftChild>
+                        <additionalChildren/>
+                        <type>STRING</type>
+                        <value>Любимый</value>
+                      </leftChild>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>USER_VARIABLE</type>
+                        <value>следующий урок</value>
+                      </rightChild>
+                      <type>FUNCTION</type>
+                      <value>JOIN3</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <leftChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>1</value>
+                      </leftChild>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>3</value>
+                      </rightChild>
+                      <type>FUNCTION</type>
+                      <value>RAND</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="NotificationCreateBrick">
+                  <brickId>f135434e-48f1-4790-9d6c-b11de52adbc6</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="VALUE_1">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>123456</value>
+                    </formula>
+                    <formula category="VALUE_2">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>NewCatroid </value>
+                    </formula>
+                    <formula category="VALUE_5">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>icon.png</value>
+                    </formula>
+                    <formula category="VALUE_3">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>Достижение</value>
+                    </formula>
+                    <formula category="VALUE_4">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>Кутеееерин</value>
+                    </formula>
+                  </formulaList>
+                  <importanceSelection>0</importanceSelection>
+                  <isOngoing>false</isOngoing>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>c094a1a5-299a-4f7d-a3e4-a5bb95b8df9a</scriptId>
+            </script>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="SetVariableBrick">
+                  <brickId>dab82fe9-27b6-4f7f-bbe3-1bc10516e6cd</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="VARIABLE">
+                      <additionalChildren/>
+                      <leftChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>1</value>
+                      </leftChild>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>14</value>
+                      </rightChild>
+                      <type>FUNCTION</type>
+                      <value>RAND</value>
+                    </formula>
+                  </formulaList>
+                  <userVariable type="UserVariable" serialization="custom">
+                    <userVariable>
+                      <default>
+                        <initialIndex>18</initialIndex>
+                        <deviceValueKey>336e6857-3a41-4d17-9d17-07fbf2084132</deviceValueKey>
+                        <name>randomevent</name>
+                      </default>
+                    </userVariable>
+                  </userVariable>
+                </brick>
+                <brick type="IfThenLogicBeginBrick">
+                  <brickId>6bc5f983-47b2-4a34-a211-56a15e390d80</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="IF_CONDITION">
+                      <additionalChildren/>
+                      <leftChild>
+                        <additionalChildren/>
+                        <type>USER_VARIABLE</type>
+                        <value>randomevent</value>
+                      </leftChild>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>6</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>EQUAL</value>
+                    </formula>
+                  </formulaList>
+                  <ifBranchBricks>
+                    <brick type="RepeatBrick">
+                      <brickId>f8e9a277-d475-4c26-80a1-63b93fa10250</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="TIMES_TO_REPEAT">
+                          <additionalChildren/>
+                          <leftChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>1</value>
+                          </leftChild>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>6</value>
+                          </rightChild>
+                          <type>FUNCTION</type>
+                          <value>RAND</value>
+                        </formula>
+                      </formulaList>
+                      <loopBricks>
+                        <brick type="WaitBrick">
+                          <brickId>37a4281d-78ea-4b32-ac23-d678e7bb5332</brickId>
+                          <commentedOut>false</commentedOut>
+                          <formulaList>
+                            <formula category="TIME_TO_WAIT_IN_SECONDS">
+                              <additionalChildren/>
+                              <type>NUMBER</type>
+                              <value>1.0</value>
+                            </formula>
+                          </formulaList>
+                        </brick>
+                        <brick type="PlaceAtBrick">
+                          <brickId>ba1c1948-29d2-457c-bd23-c025efae9af3</brickId>
+                          <commentedOut>false</commentedOut>
+                          <formulaList>
+                            <formula category="Y_POSITION">
+                              <additionalChildren/>
+                              <leftChild>
+                                <additionalChildren/>
+                                <type>NUMBER</type>
+                                <value>200</value>
+                              </leftChild>
+                              <rightChild>
+                                <additionalChildren/>
+                                <type>NUMBER</type>
+                                <value>600</value>
+                              </rightChild>
+                              <type>FUNCTION</type>
+                              <value>RAND</value>
+                            </formula>
+                            <formula category="X_POSITION">
+                              <additionalChildren/>
+                              <leftChild>
+                                <additionalChildren/>
+                                <type>NUMBER</type>
+                                <value>100</value>
+                              </leftChild>
+                              <rightChild>
+                                <additionalChildren/>
+                                <type>NUMBER</type>
+                                <value>600</value>
+                              </rightChild>
+                              <type>FUNCTION</type>
+                              <value>RAND</value>
+                            </formula>
+                          </formulaList>
+                        </brick>
+                      </loopBricks>
+                    </brick>
+                  </ifBranchBricks>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>62503cc8-473f-4f2c-b476-51751fbc51a1</scriptId>
+            </script>
           </scriptList>
           <nfcTagList/>
           <userVariables/>
@@ -11716,7 +12136,7 @@
     </scene>
   </scenes>
   <programVariableList>
-    <userVariable reference="../../scenes/scene[12]/objectList/object/scriptList/script[4]/brickList/brick/ifBranchBricks/brick/userVariable"/>
+    <userVariable reference="../../scenes/scene[12]/objectList/object/scriptList/script/brickList/brick[2]/userVariable"/>
     <userVariable reference="../../scenes/scene[12]/objectList/object[4]/scriptList/script/brickList/brick/loopBricks/brick[2]/userVariable"/>
     <userVariable reference="../../scenes/scene/objectList/object[5]/scriptList/script[3]/brickList/brick/userVariable"/>
     <userVariable reference="../../scenes/scene[4]/objectList/object[2]/scriptList/script/brickList/brick/userVariable"/>
@@ -11734,7 +12154,7 @@
     <userVariable reference="../../scenes/scene[8]/objectList/object[3]/scriptList/script/brickList/brick/userVariable"/>
     <userVariable reference="../../scenes/scene[2]/objectList/object[3]/scriptList/script[2]/brickList/brick/userVariable"/>
     <userVariable reference="../../scenes/scene[11]/objectList/object[4]/scriptList/script[2]/brickList/brick[2]/userVariable"/>
-    <userVariable reference="../../scenes/scene[12]/objectList/object/scriptList/script[3]/brickList/brick/userVariable"/>
+    <userVariable reference="../../scenes/scene[12]/objectList/object/scriptList/script[4]/brickList/brick/userVariable"/>
     <userVariable reference="../../scenes/scene[4]/objectList/object/scriptList/script[3]/brickList/brick/userVariable"/>
     <userVariable reference="../../scenes/scene[4]/objectList/object/scriptList/script[3]/brickList/brick[2]/userVariable"/>
     <userVariable reference="../../scenes/scene[4]/objectList/object/scriptList/script[6]/brickList/brick/loopBricks/brick/ifBranchBricks/brick[2]/userVariable"/>
@@ -11750,6 +12170,7 @@
         </default>
       </userVariable>
     </userVariable>
+    <userVariable reference="../../scenes/scene[13]/objectList/object[6]/scriptList/script[2]/brickList/brick/userVariable"/>
   </programVariableList>
   <programListOfLists/>
   <programMultiplayerVariableList/>
